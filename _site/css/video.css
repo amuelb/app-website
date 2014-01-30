@@ -4,6 +4,9 @@ dialog {
 	box-shadow: 1px 1px 10px rgba(0,0,0,5);
 	background-color: #333;
 	width: 750px;
+	
+	
+ 
 }
 
 dialog::backdrop {
@@ -32,4 +35,6 @@ dialog + .backdrop {
 	padding-bottom: 7px;
 	opacity:0.8;
 }
+
+
 
