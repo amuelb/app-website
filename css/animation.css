@@ -1,0 +1,87 @@
+.row{
+	width:100%;
+	margin:6% auto;
+	text-align:center;
+	
+}
+
+.col-md-4 {
+	-webkit-transform: translateY(140px);
+}
+
+@-webkit-keyframes row-up {
+	0% {
+		opacity:0;
+		-webkit-transform: translateY(140px);
+	}
+	
+	40% {
+		opacity: 1; /*this means the ships will fade in faster than they move.*/
+	}
+	
+	100% {
+		opacity:1;
+		-webkit-transform:translateY(0);
+	}
+}
+
+.js-row-animate {
+	-webkit-animation: row-up 1s ease-out 1 forwards;
+}
+
+
+
+
+
+
+
+/*///////////////////
+BACK TO TOP
+///////////////////*/
+
+
+.top {
+	margin:0;
+	margin-bottom: 2em;
+	padding:0;
+	list-style-type: none;
+	text-align:center;
+	
+	-webkit-animation: top-up 2s linear infinite;
+	/*
+	animation-name: rocket-rotate;
+	animation-duration: 6s;
+	animation-timing-function: linear;
+	animation-intergration-count: infinite;
+	*/
+	-webkit-transform-origin: 100% 100px;
+}
+
+.top img{
+	width: 60px;
+}
+
+
+@-webkit-keyframes top-up {
+	0% {
+		opacity:0;
+		-webkit-transform: translateY(80px);
+	}
+	
+	50% {
+		opacity: 1; /*this means the ships will fade in faster than they move.*/
+		-webkit-transform: translateY(60px)
+	}
+	
+	100% {
+		opacity:0;
+		-webkit-transform:translateY(80px);
+	}
+}
+
+
+
+
+
+
+
