@@ -5376,7 +5376,7 @@ a.list-group-item.active > .badge,
 	display: block;
 	z-index: 100;
 	opacity: 0.3;
-	top: 35%;
+	top: 12em;
 	float: left;
 	width: 10%;
 	max-width: 100px;
@@ -5399,7 +5399,7 @@ a.list-group-item.active > .badge,
 	right: 30px;
 	z-index: 100;
 	opacity: 0.3;
-	top: 35%;
+	top: 12em;
 	float: right;
 	width: 10%;
 	max-width: 100px;
